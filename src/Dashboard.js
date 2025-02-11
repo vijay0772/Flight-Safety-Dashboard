@@ -4,7 +4,6 @@ import { MapContainer, TileLayer, Marker, Popup } from "react-leaflet";
 import L from "leaflet";
 import "leaflet/dist/leaflet.css";
 import { getDistance } from "geolib";
-import { useNavigate } from "react-router-dom";
 
 // ✅ Import icons
 import planeIconImg from "./icons/plane.png";
@@ -27,11 +26,10 @@ const balloonIcon = new L.Icon({
 });
 
 const Dashboard = () => {
-  const [alerts, setAlerts] = useState([]);
+  const [, setAlerts] = useState([]);
   const [balloons, setBalloons] = useState([]);
   const [flights, setFlights] = useState([]);
   const [loading, setLoading] = useState(true);
-  const navigate = useNavigate();
 
   const fetchData = async () => {
     setLoading(true);
