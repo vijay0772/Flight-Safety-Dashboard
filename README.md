@@ -2,6 +2,10 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Description
+Flight Safety Dashboard, a real-time tracking system that monitors live flights and weather balloons to assess potential airspace violations. Using WindBorne Systems API, OpenSky API, and geospatial analysis, the dashboard dynamically visualizes aircraft and balloon locations, integrating Leaflet.js for interactive mapping. It provides real-time alerts for potential collisions, leveraging both historical and live data for enhanced situational awareness. This project showcases my expertise in API integration, real-time data processing, and UI development, while solving a critical problem in aviation safety.
+
+
 ## Available Scripts
 
 In the project directory, you can run:
